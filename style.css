@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+
+.container h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.choices {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    flex-direction: row;
+    /* border: 1px solid blue; */
+}
+
+img {
+    width: 150px;
+    height: 110px;
+}
+
+.card {
+    border-radius: 10%;
+    width: 40%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px dotted black;
+    margin-right: 5px;
+    margin-left: 3px;
+    text-align: center;
+    background-color: #DCDCDC;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding-top: 8px;
+}
+
+input[type=submit] {
+    background-color: #778899;
+    width: 90px;
+    height: 40px;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
+#table {
+    width: 80%;
+    margin: auto;
+    justify-content: center
+}
+
+table {
+    margin-left: 90px;
+    margin-top: 30px;
+    width: 80%;
+    text-align: center;
+    border: 1px green solid;
+}
+
+table caption {
+    font-size: 30px;
+    padding-bottom: 10px;
+    /* color: blue; */
+}
+
+table thead {
+    /* width: 80%; */
+    /* text-align: center; */
+    color: darkslateblue;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: 1px blue solid; */
+}
+
+table thead tr {
+    margin: 20px;
+    padding: 20px;
+    /* border: 1px green solid; */
+}
+
+table tbody tr td {
+    padding: 20px;
+    /* margin: 30px; */
+    border: 1px black solid;
+}
+
+td {
+    width: 60px;
+}
+
+a {
+    text-decoration: none;
+}
